@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* sjdgg */
+
+.title{
+    color: #246456;
+    font-family: Recoleta;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.125;
+}
+
+.title_w{
+    color: #fff;
+}
+
+.text{
+    color: #15cf5c;
+    font-family: Recoleta;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.125;
+}
+
+.text_w{
+    color: #fff;
+}
+
+/* dkjhcbsu */
+
+.header{
+    background-color: rgb(47, 61, 55);
+    padding: 23px 0;
+}
+
+.header__wrap{
+    display: flex;
+    justify-content: space-between;
+}
+    
+    .header__block{
+        display: flex;
+        align-items: center;
+    }
+    
+.header__menu{
+    display: flex;
+}
+
+.header__menu-item{
+    color: aliceblue;
+    font-size: 16px;
+    font-family: Noto Sana;
+    font-weight: 400;
+    margin-right: 24px;
+}
+
+.header__link{
+    background: #75c495;
+    padding: 15px;
+    border-radius: 160px;
+}
+/* intro */
+
+.intro{
+    background-color: rgb(47, 61, 55);
+}
+
+.intro__wrap{
+    display: flex;
+}
+
+.intro__texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro__pic{
+    margin-right: -54px;
+}
+
+
+/* hr */  
+  
+.hr{  
+    padding: 120px 0;  
+}  
+.hr__block{  
+    display: flex;  
+    justify-content: space-between;  
+}  
+  
+.hr__texts{  
+    display: flex;  
+    flex-direction: column ;  
+    justify-content: center;  
+    max-width: 374px;  
+}  
+  
+.hr__title{  
+    margin-bottom: 27px;  
+}
+
+/* hq */  
+  
+.hq{  
+    background-color: #20422d;  
+    padding: 66px 0 120px 0;  
+  
+}  
+  
+.hq__title{  
+    text-align: center;  
+    margin-bottom: 66px;  
+}  
+  
+.hq__row{  
+    display: flex;  
+    justify-content: space-between;  
+}  
+  
+.hq__card{  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+}  
+  
+.hq__text{  
+    text-align: center;  
+}  
+.hq__pic{  
+    margin-bottom: 44px;     
+}
